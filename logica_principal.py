@@ -22,6 +22,14 @@ def agregar_tarea():
     tarea= Tarea(id, titulo, descripcion, estado, prioridad)
     almacenador_tareas.append(tarea)
 
+def Auxiliar_buscar_por_id(id):
+    while True:
+        id_pedir=int(input(id))
+        for i in almacenador_tareas:
+            if i.id ==  id_pedir:
+                return i.titulo
+        return None
+
 def mostrar_tareas():
     if not almacenador_tareas:
         print("lo sentimos, no hay tareas guardadas en este momento")
