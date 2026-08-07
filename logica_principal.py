@@ -71,7 +71,7 @@ def actualizar_tareas():
         print("opcion invalida, ingrese nuevamente")
 
     guardar_tarea()
-    
+
 "este sirve para cargar los datos"
 def cargar_tareas():
     with open("tareas.json" , "r") as archivo:
@@ -85,6 +85,18 @@ def cargar_tareas():
                               i["prioridad"])
         almacenador_tareas.append(objeto_sacado)
 
+def eliminar_tarea():
+    pedir_id= Auxiliar_buscar_por_id("ingrese el id de la tarea a eliminar")
+    if pedir_id is None:
+        print("no existe una tarea asignada con ese id")
+        return
+
+    print("tarea encontrado")
+    almacenador_tareas.remove(pedir_id)
+    guardar_tarea()
+    print("tarea eliminada con exito")
+
+    
     
 
 
