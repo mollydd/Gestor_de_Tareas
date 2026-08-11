@@ -21,7 +21,7 @@ while opcion != 6:
     elif opcion == 3:
         logica_principal.buscar_tarea()
     elif opcion == 4:
-        logica_principal.actualizar_tarea()
+        logica_principal.actualizar_tareas()
     elif opcion == 5:
         logica_principal.eliminar_tarea()
     elif opcion == 6:
