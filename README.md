@@ -65,4 +65,5 @@ Gestor_de_tareas/
 ```
 ## Autoría
 Proyecto desarrollado en Python utilizando programación orientada a objetos, validación de datos, operaciones CRUD y persistencia de información mediante archivos JSON.
+
 Paula Machacon
