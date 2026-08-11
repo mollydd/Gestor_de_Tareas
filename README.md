@@ -63,15 +63,6 @@ Gestor_de_tareas/
   "prioridad": "alta"
 }
 ```
-
-## Próximas mejoras
-
-- Añadir fechas límite y filtros por estado o prioridad.
-- Mostrar las tareas en una tabla más legible.
-- Separar la lógica de persistencia en un módulo propio.
-- Incluir pruebas automatizadas.
-- Crear una interfaz gráfica o una versión web.
-
 ## Autoría
-
-Proyecto desarrollado como práctica de Python, programación orientada a objetos, validación de datos y manejo de archivos JSON.
+Proyecto desarrollado en Python utilizando programación orientada a objetos, validación de datos, operaciones CRUD y persistencia de información mediante archivos JSON.
+Paula Machacon
